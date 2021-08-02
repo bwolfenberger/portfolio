@@ -573,6 +573,12 @@ progress {
   height: auto;
 }
 
+.img-fluid-circle {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
