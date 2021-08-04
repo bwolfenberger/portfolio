@@ -571,6 +571,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border:.2rem solid lightgray;
 }
 
 .img-fluid-circle {
@@ -1633,6 +1634,11 @@ progress {
   .col-xl-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+  }
+  .col-xl-8-left {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    padding-left: 117px;
   }
 
   .col-xl-9 {
@@ -11193,13 +11199,19 @@ body {
 .projects-section {
   padding: 10rem 0;
 }
-.projects-section .featured-text {
+.projects-section .featured-text .featured-text-left{
   padding: 2rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+  }
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text-left {
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid #64a19d;
   }
 }
 .projects-section .project-text {
