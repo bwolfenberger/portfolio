@@ -11156,7 +11156,7 @@ body {
   font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11197,7 +11197,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 10rem 0 0 0;
 }
 .projects-section .featured-text .featured-text-left{
   padding: 2rem;
