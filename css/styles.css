@@ -11150,7 +11150,7 @@ body {
   font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11186,7 +11186,8 @@ body {
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
+  margin-bottom: 3rem;
 }
 
 .projects-section {
